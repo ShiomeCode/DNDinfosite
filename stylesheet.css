@@ -1,0 +1,119 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: sienna;
+}
+
+.header-wrap {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: darkolivegreen;
+}
+
+.list {
+    text-align: center;
+}
+
+.classButton {
+    font-size: 16;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: goldenrod;
+    height: 30px;
+    width: 90px;
+}
+.classButton:hover {
+    background-color: sienna;
+}
+
+.className {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    background-color: rgb(63, 63, 63);
+    grid-template-columns: 20px, auto, auto;
+    grid-template-rows: 20px, auto, auto;
+    grid-gap: 20px;
+    text-align: center;
+    color: white;
+    width: 80%;
+    transform: translate(12.5%);
+    margin-top: 10px;
+}
+
+.grid-container > ul {
+    border: thin solid black;
+    border-radius: 5px;
+    list-style-position: inside;
+    text-align: left;
+    margin: 20px auto;
+    background-color: rgb(105, 105, 105);
+}
+
+.grid-container > li {
+    display: inline-block;
+}
+
+.stats {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.skills {
+    grid-column-start: 1;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.tools {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.grid-container-level {
+    margin: auto;
+    display: grid;
+    background-color: rgb(63, 63, 63);
+    grid-template-columns: 20px, auto, auto;
+    grid-template-rows: 20px, auto, auto;
+    grid-gap: 20px;
+    text-align: center;
+    align-self: center;
+    color: white;
+    width: 80%;
+    padding-bottom: 20px;
+}
+
+.grid-container-level > .level-wrap {
+    width: 70%;
+
+}
+
+.grid-container-level > .level-wrap > ul {
+    border: thin solid black;
+    border-radius: 5px;
+    list-style-position: inside;
+    text-align: left;
+    transform: translate(20%);
+    margin: auto;
+    background-color: rgb(105, 105, 105);
+}
+
+.levels {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.featureDesc {
+    list-style-type: none;
+}
